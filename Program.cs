@@ -9,16 +9,32 @@ int input = int.Parse(keyInput);
 
 switch (input) {
     case 1:
-        adittion();
+        string ad = "addition";
+        math(ad);
+        break;
+    case 2:
+        string sub = "subtraction";
+        math(sub);
         break;
 }
 
-void adittion() {
-    Console.WriteLine("This is addition, insert your first value and hit enter.");
-    int inputOne = int.Parse(Console.ReadLine());
+void math(string type) {
+    int inputOne;
+    int inputTwo;
+    int result;
+    if (type == "addition") {
+        Console.WriteLine("This is addition, insert your first value and hit enter.");
+    } else {
+        Console.WriteLine("This is subtraction, insert your first value and hit enter.");
+    }
+    inputOne = int.Parse(Console.ReadLine());
     Console.WriteLine("Insert your second value and hit enter.");
-    int inputTwo = int.Parse(Console.ReadLine());
-    int result = inputOne + inputTwo;
-    Console.WriteLine("This is your result:" + result);
+    inputTwo = int.Parse(Console.ReadLine());
+    if (type == "addition") {
+        result = inputOne + inputTwo;
+    } else {
+        result = inputOne - inputTwo;
+    }
+    Console.WriteLine("This is your result: " + result);
     Console.ReadKey();
 }
