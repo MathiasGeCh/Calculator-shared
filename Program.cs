@@ -9,7 +9,7 @@ int input = int.Parse(keyInput);
 
 switch (input) {
     case 1:
-        addition();
+        adittion();
         break;
 }
 
