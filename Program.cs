@@ -4,12 +4,13 @@ Console.WriteLine("2. Subtraction");
 Console.WriteLine("3. Divide");
 Console.WriteLine("4. Multiply");
 
-string keyInput = Console.ReadKey();
+string keyInput = Console.ReadLine();
 int input = int.Parse(keyInput);
 
 switch (input) {
     case 1:
         adittion();
+        break;
 }
 
 void adittion() {
