@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Pick your option:");
+Console.WriteLine("Pick your option:");
 Console.WriteLine("1: Addition");
 Console.WriteLine("2. Subtraction");
 Console.WriteLine("3. Divide");
@@ -9,7 +9,7 @@ int input = int.Parse(keyInput);
 
 switch (input) {
     case 1:
-        adittion();
+        addition();
         break;
 }
 
