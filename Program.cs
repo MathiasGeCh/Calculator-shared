@@ -7,8 +7,8 @@ const string _mul = "multiply";
 Console.WriteLine("Pick your option:");
 Console.WriteLine("1: Addition");
 Console.WriteLine("2. Subtraction");
-Console.WriteLine("3. Divide");
-Console.WriteLine("4. Multiply");
+Console.WriteLine("3. Multiply");
+Console.WriteLine("4. Divide");
 
 string keyInput = Console.ReadLine();
 int input = int.Parse(keyInput);
