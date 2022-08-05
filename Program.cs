@@ -10,8 +10,8 @@ Console.WriteLine("2. Subtraction");
 Console.WriteLine("3. Multiply");
 Console.WriteLine("4. Divide");
 
-string keyInput = Console.ReadLine();
-int input = int.Parse(keyInput);
+ConsoleKeyInfo keyInput = Console.ReadKey(true);
+int input = int.Parse(keyInput.KeyChar.ToString());
 
 switch (input) {
     case 1:
