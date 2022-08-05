@@ -1,0 +1,18 @@
+Undersøg: GitLab Continuous Integration & Deployment
+Hvad betyder CI og hvordan kan man bruge versionsstyrring til dette?
+CI står for Continuous integration, det er automatiske tests der bliver kørt på de ændringer der bliver lavet.
+CI kan hjælpe med at finde bugs og gøre det nemmere at rette eventuelle fejl i et program.
+
+Undersøg GitHub / Gitlab
+Hvad er forskellene?
+The major difference between GitHub and GitLab is the platform each philosophy presents. 
+GitHub has higher availability and is more focused on infrastructure performance, 
+while GitLab is more focused on offering a features-based system with a centralized, integrated platform for web developers
+Er der fordele og ulemper ved at bruge den ene frem for den anden?
+Github lader dig bestemme hvilke CI/CD værktøjer du vil bruge, hvor Gitlab har det bygget ind så man skal bruge det.
+https://www.upgrad.com/blog/github-vs-gitlab-difference-between-github-and-gitlab/
+
+
+
+
+
