@@ -7,4 +7,5 @@ This project is very basic and does not require any documentation to understand.
 This project highlighted how, you as a user, use Git and GitHub for versioning.
 ## How to run this?
 Download this project and run it in your IDE
+
 If using a CLI use > dotnet run
